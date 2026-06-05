@@ -37,7 +37,6 @@ SELECT month,
 FROM payroll
 GROUP BY month;
 
-
 -- 5. Rank employees based on attendance percentage
 
 SELECT
