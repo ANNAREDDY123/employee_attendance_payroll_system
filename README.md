@@ -73,4 +73,4 @@ JWT Authentication is implemented using Register and Login APIs.
 - SQL Schema Script
 - SQL Report Queries
 - Postman Collection
-- README
+- README..
