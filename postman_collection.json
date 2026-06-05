@@ -1,0 +1,43 @@
+{
+  "info": {
+    "name": "Employee Attendance & Payroll System",
+    "description": "Postman Collection for Employee Payroll APIs"
+  },
+  "item": [
+    {
+      "name": "Register",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/register"
+      }
+    },
+    {
+      "name": "Login",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/login"
+      }
+    },
+    {
+      "name": "Add Employee",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/employees"
+      }
+    },
+    {
+      "name": "Mark Attendance",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/attendance"
+      }
+    },
+    {
+      "name": "Generate Payroll",
+      "request": {
+        "method": "POST",
+        "url": "http://127.0.0.1:8000/payroll"
+      }
+    }
+  ]
+}
